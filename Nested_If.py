@@ -88,27 +88,43 @@
 
 
 
-# 34.Wap to print the last value of a list only if it is palindrome string starting with   
-#     vowel. 
-a = eval(input("ENTER PROPER DATA: "))
-if a[-1]==a[::-1]:
-    if a[0] in"aeiou":
-        print("Its an vowel",a[-1])
-    else:
-        print("Not Vowel")
-else:
-    print("Input Incorrect")
+# # 34.Wap to print the last value of a list only if it is palindrome string starting with   
+# #     vowel. 
+# a = eval(input("ENTER PROPER DATA: "))
+# b = a[-1][::-1]
+
+# if a[-1]==b:
+#         if a[-1][0] in"AEIOUaeiou":
+#             print(a[-1])
+#         else :
+#               print("Not a vowel")
+# else:
+#       print("Not palindrome")
 
 
 
-# 35.Wap to print the reversed string only if it is starting with vowel ,ending with     
-#     consonant and having a middle value. 
+
+# # 35.Wap to print the reversed string only if it is starting with vowel ,ending with     
+# #     consonant and having a middle value. 
+# a = input("Enter String : ")
+# if a[0].lower() in "aeiou":
+#     if a[-1].isalpha() and a[-1].lower() not in "aeiou":
+#         if len(a)%2==1:
+#             print(a[::-1])
+#         else :
+#             print("Dont have middle value")
+#     else:
+#        print("last value is not an consonant  ") 
+# else:
+#     print("first value is not a vowel")
 
 
 
 
 
 # 36.Wap to find the second greatest of 4 values. 
+
+
 
 
 
