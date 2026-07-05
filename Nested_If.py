@@ -122,8 +122,59 @@
 
 
 
-# 36.Wap to find the second greatest of 4 values. 
+# # 36.Wap to find the second greatest of 4 values. 
+# a = int(input("Enter Number 1: "))
+# b = int(input("Enter Number 2: "))
+# c = int(input("Enter Number 3: "))
+# d = int(input("Enter Number 4: "))
 
+# if a >= b and a >= c and a >= d:
+#     if b >= c:
+#         if b >= d:
+#             print("Second greatest is:", b)
+#         else:
+#             print("Second greatest is:", d)
+#     else:
+#         if c >= d:
+#             print("Second greatest is:", c)
+#         else:
+#             print("Second greatest is:", d)
+
+# elif b >= a and b >= c and b >= d:
+#     if a >= c:
+#         if a >= d:
+#             print("Second greatest is:", a)
+#         else:
+#             print("Second greatest is:", d)
+#     else:
+#         if c >= d:
+#             print("Second greatest is:", c)
+#         else:
+#             print("Second greatest is:", d)
+
+# elif c >= a and c >= b and c >= d:
+#     if a >= b:
+#         if a >= d:
+#             print("Second greatest is:", a)
+#         else:
+#             print("Second greatest is:", d)
+#     else:
+#         if b >= d:
+#             print("Second greatest is:", b)
+#         else:
+#             print("Second greatest is:", d)
+
+# else:
+#     if a >= b:
+#         if a >= c:
+#             print("Second greatest is:", a)
+#         else:
+#             print("Second greatest is:", c)
+#     else:
+#         if b >= c:
+#             print("Second greatest is:", b)
+#         else:
+#             print("Second greatest is:", c)
 
 
 
@@ -161,5 +212,15 @@
 
 
 
-# 38. Write a program to print middle Character of the given string only if it is upper                
-#     Case Character.
+# # 38. Write a program to print middle Character of the given string only if it is upper                
+# #     Case Character.
+
+# a = input("Enter String : ")
+# b = len(a)//2
+# if len(a)%2==1:
+#     if a[b]== a[b].upper():
+#         print(a[b])
+#     else:
+#         print("Not Upper")
+# else:
+#     print("Dont have middle value")
