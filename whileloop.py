@@ -4,7 +4,25 @@
 #     print("PYTHON")
 #     n+=1
 
-#  40.Wap to print n natural numbers. 
+# #  40.Wap to print n natural numbers. 
+# n = int(input("Enter a number: "))
+# i=0
+# while i<=n:
+#     print(i)
+#     i+=1
+
+
+# # WAP to print first n odd numbers
+
+# n = int(input("Enter a number: "))
+# i = 1
+# count = 1
+
+# while count <= n:
+#     print(i)
+#     i += 2
+#     count += 1
+
 #  41.Wap to print multiplication table for n. 
 #  42.Wap to find the sum of n natural numbers. 
 #  43. Wap to find the product of n natural numbers or factorial of a number. 
