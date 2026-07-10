@@ -198,7 +198,6 @@
 # print(result)
 
 
-
 # #  58.Wap to find the greatest number in a given list of integers. 
 # lst = eval(input("Enter a list : "))
 # i = 0
@@ -211,23 +210,47 @@
 
 
 
+# #  59.Wap to find the sum of cube of a number in a string. 
+# s = input("Enter a string :")
+# i = 0 
+# sum = 0
+# while i< len(s):
+#     if "0"<= s[i] <= "9" :
+#         sum = int(s[i])**3+sum
+#     i+=1
+# print(sum)
 
 
 
-#  59.Wap to find the sum of cube of a number in a string. 
+# #  60.Wap to check whether the number is Armstrong or not.
+# n = int(input("Enter a number: "))
+# original = n
+# i = 0
+# b = 0
+# while n>0:
+#     i = n%10
+#     b = i**3  + b
+#     n=n//10
+# if b==original:
+#     print(" Number is Armstrongg")
+# else: 
+#         ("Not Armstrong")
 
 
 
 
+# #  61.Wap to get the following output. 
+# #     A=’10011100’   B=’00110101’    out=4(count of positions having same values) 
+# A="10011100"  
+# B="00110101"
+# i = 0 
+# count = 0
+# while i< len(A):
+#     if A[i] == B[i]:
+#         count +=1
+#     i+=1
+# print(count)
 
-#  60.Wap to check whether the number is Armstrong or not.
-
-
-
- 
- 
-#  61.Wap to get the following output. 
-#     A=’10011100’   B=’00110101’    out=4(count of positions having same values) 
 
 
 
