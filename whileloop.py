@@ -252,57 +252,136 @@
 # print(count)
 
 
+# #  62.Wap to check the given number is prime or not. 
+# n = int(input("Enter Number: "))
+# i = 1
+# count = 0
+# while i <= n:
+#     if n % i == 0:
+#         count +=1 
+#     i+=1
+# if count == 2:
+#     print("Prime")
+# else:
+#     print("Not prime")
 
 
-#  62.Wap to check the given number is prime or not. 
-
-
-
-
-#  63.Wap  to check whether the number is palindrome or not. 
-
-
-
-
-
-#  64.Wap to find the HCF of two numbers. 
-
-
-
-
-
-#  65.Wap to convert binary to decinaml. 
-
-
-
-
-
-
-
-#  66. Wap to convert decimal to binary. 
-
-
+# #  63.Wap  to check whether the number is palindrome or not. 
+# n = int(input("Enter Number: "))
+# org = n
+# b = 0
+# check = 0 
+# while n > 0:
+#     b = n%10
+#     check= check *10+b
+#     n=n//10
+# if org == check:
+#     print("Palindrom")
+# else: 
+#     print("Not a palindrom")
 
 
 
 
-#  67.Wap to count the number of words in a string. 
+# #  64.Wap to find the HCF of two numbers. 
+# a = int(input("Enter first number: "))
+# b =int(input("Enter second number: "))
+# i=1
+# hcf=1
+# if a<b:
+#     small = a
+# else:
+#     small = b
+# while i<=small:
+#     if a%i==0 and b%i==0:
+#         hcf=i
+#     i+=1
+# print(hcf)
+
+
+# # #  65.Wap to convert binary to decinaml. 
+# a = int(input("Enter Binary number: "))
+# i = 0
+# result =0
+# while a>0:
+#     b = a%10
+#     num = b*2**i
+#     result=num+result
+#     i+=1
+#     a = a//10
+# print(result)
+
+
+# #  66. Wap to convert decimal to binary. 
+# a = int(input("Enter number: "))
+# b =0
+# place=1
+# while a>0:
+#     rem = a%2
+#     b = b+rem*place
+#     place = place *10
+#     a =a//2
+# print(b)
 
 
 
 
+# #  67.Wap to count the number of words in a string. 
+# s = input("Enter String: ")
+# i =0
+# count = 0
+# words = s.split()
+# while i<len(words):
+#     count = count + 1
+#     i+=1
+# print(count)
 
-#  68.Wap to guess the number. 
+# #2
+# s = input("Enter String: ")
+# i = 0
+# count = 1
+# while i < len(s):
+#     if s[i] == " ":
+#         count += 1
+#     i += 1
+# print(count)
+
+
+
+# #  68.Wap to guess the number. 
+# secret = 25
+
+# guess = int(input("Guess the number: "))
+
+# while guess != secret:
+#     print("Wrong Guess")
+#     guess = int(input("Guess Again: "))
+
+# print("Correct Guess")
 
 
 
 
+# #  69.Wap to find the common elements in two sets 
+# a =eval(input("Enter Set: "))
+# b =eval(input("Enter Set: "))
+# i=0
+# lst=[]
+# lst1 =list(a)
+# lst2 = list(b)
+# while i<len(lst1):
+#     if lst1[i] in lst2:
+#         lst.append(lst1[i])
+#     i+=1
+# print(lst)
 
-#  69.Wap to find the common elements in two sets 
 
 
-
-
-
-
-#  70.Wap to find the product of all the digits present in a number. 
+# #  70.Wap to find the product of all the digits present in a number. 
+# n = int(input("Enter a number: "))
+# result =1
+# while n>0:
+#     a = n%10
+#     result = a * result
+#     n = n//10
+# print(result)
