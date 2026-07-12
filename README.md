@@ -46,8 +46,5 @@ Total Problems Solved / To Solve: **145**
 
 This repository tracks my coding journey and daily practice as I improve in Python and Data Structures & Algorithms.
 
-## Author
 
-Robin
-Aspiring Software / Data Professional
 
