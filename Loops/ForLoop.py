@@ -204,3 +204,117 @@
 # for word in s.split():
 #     result = result + word[::-1] + " "
 # print(result)
+
+
+# 87. Wap to get the following output. 
+#     In=’push maadi kushi padi’ 
+#     Out={‘push’:’ph’,’maadi’:’a’,’kushi’:’s’,’padi’:’pi’} 
+
+# s = input("Enter a string: ")
+# words = s.split()
+# dect= {}
+# empty = 0
+# for i in range(len(words)):
+#     if i%2!= 0:
+#         empty = len(words)//2 
+#         dect [i] = words[empty]
+
+ 
+
+
+
+
+# # 88.Wap to toggle a string. 
+# s = input("Enter a string: ")
+# ts =""
+# for i in range(len(s)):
+#     if "a"<=s[i]<="z":
+#         ts = ts+ s[i].upper()
+#     elif "A"<=s[i]<="Z":
+#         ts = ts + s[i].lower()
+#     else:
+#         ts = ts + s[i]
+# print(ts)
+
+
+
+# 89.Wap extract upper, lower, digit and special characters present in a string to different. 
+#     output variable 
+
+
+
+
+# 90. Wap to get the following output. 
+#         S=’hai hello ‘ 
+#         Out={‘hai’:’ai’,’hello:’eo’}
+
+
+
+# 91. Wap to get the following output. 
+#         S=[‘jiocinema.com’,’file.py’,’web.html’,’amazom.com’,’www.org’] 
+#         Out=[‘com’,’py’,’html’,’org’]
+# 
+
+
+
+
+
+#     92. Wap to get the following output. 
+#                 S=[‘jiocinema.com’,’file.py’,’web.html’,’amazom.com’,’www.org ’python.py’] 
+#                 Out={‘com’:[‘jiocinema’,’amazon’],’py’:[‘file’,’python’],’html’:[‘web’], 
+#                       ’org’:[‘www’]} 
+
+
+
+
+#     93.Wap to get the following output. 
+#                 L=[‘hai’,34,3.4,’hello’,90,’byebye’] 
+#                 Out={‘hai’:’hi’,’hello’:’ho’,’byebye’:’be’} 
+
+
+
+
+
+#     94.wap to get the following output. 
+#                 In=’hello’ 
+#                 Out={0:’h’,1:’e’,2:’l’,3:’l’,4:’e’} 
+
+
+
+
+# 95.Wap to extract all the string values present in list only if the string is palindrome.
+
+
+
+
+# 96.Wap to return the positions of vowels present in the given string. 
+# 97.Wap to check whether the given collection is having nested collection or not. 
+# 98.Wap to count the number of words in a string. 
+# 99.Wap to check whether the number is neon number or not. 
+#     N=9→9**2=81→8+1=9 
+# 100.Wap to find the longest word in a string. 
+# 102.wap to print the square of all the integers present in a list. 
+# 101.Wap to replace the special character present in a string by space. 
+# 103.Wap to extract all the odd number present at even index from a list. 
+# 104.Wap to extract all the mutable values present in a tuple. 
+# 105.Wap to get the following output. 
+#                In=’10100011231’ 
+#                Out=’010111000’    ( 0→1 and 1→0 if it is other than 0 &1 ignore) 
+# 106.Wap to get the following output. 
+#               In=’abacbaacc’ 
+#               Out={‘a’:4,’b’:2,’c’:3} 
+# 107.wap to extract keyvalue pair from the dictionary only if the key is Boolean datatype. 
+# 108.Wap to get the following output. 
+#                   In=’127342’ 
+#                   Out=’242173’  (extract even and odd digits separately and concatenate both) 
+# 109.Wap to checek whether the string is having only lowercase or not using continue. 
+# 110.Wap to find the sum  square of individual digits of a string.
+
+
+# a=(1,2,3,5,6)
+# b=list(a)
+# print(b)
+# b.append(10)
+# print(b)
+# a = tuple(b)
+# print(a)
