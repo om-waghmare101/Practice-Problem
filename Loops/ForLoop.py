@@ -272,13 +272,30 @@
 # 91. Wap to get the following output. 
 #S = ['jiocinema.com', 'file.py', 'web.html', 'amazom.com', 'www.org']
 #         Out=[‘com’,’py’,’html’,’org’]
-S = ['jiocinema.com', 'file.py', 'web.html', 'amazom.com', 'www.org']
-out = []
+# S = ['jiocinema.com', 'file.py', 'web.html', 'amazom.com', 'www.org']
+# out = []
+
+# for i in S:
+#     word = i.split('.')
+#     out.append(word[-1])
+# print(out)
+
+
+
+
+
+# 92. Wap to get the following output. 
+# S=[‘jiocinema.com’,’file.py’,’web.html’,’amazom.com’,’www.org ’python.py’] 
+# Out={‘com’:[‘jiocinema’,’amazon’],’py’:[‘file’,’python’],’html’:[‘web’], ’org’:[‘www’]} 
+
+S = ['jiocinema.com', 'file.py', 'web.html', 'amazom.com', 'www.org','python.py']
+cat =[]
+dom = []
 
 for i in S:
-    word = i.split('.')
-    out.append(word[-1]) 
-print(out)
+    a = i.split('.')
+    if a[-1] not in dom:
+        dom.append(a[-1])
 
 
 
@@ -286,10 +303,12 @@ print(out)
 
 
 
-#     92. Wap to get the following output. 
-#                 S=[‘jiocinema.com’,’file.py’,’web.html’,’amazom.com’,’www.org ’python.py’] 
-#                 Out={‘com’:[‘jiocinema’,’amazon’],’py’:[‘file’,’python’],’html’:[‘web’], 
-#                       ’org’:[‘www’]} 
+
+
+        
+
+
+
 
 
 
