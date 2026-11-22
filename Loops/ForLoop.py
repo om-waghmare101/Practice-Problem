@@ -309,22 +309,18 @@
 
 
 
+#    93.Wap to get the following output. 
+#    L=[‘hai’,34,3.4,’hello’,90,’byebye’] 
+#   Out={‘hai’:’hi’,’hello’:’ho’,’byebye’:’be’} 
+# L=['hai',34,3.4,'hello',90,'byebye'] 
+# out = {}
+# li=[]
 
+# for i in L:
+#     if type(i) == str:
+#         li.append((i, i[0] + i[-1]))
 
-
-
-        
-
-
-
-
-
-
-
-#     93.Wap to get the following output. 
-#                 L=[‘hai’,34,3.4,’hello’,90,’byebye’] 
-#                 Out={‘hai’:’hi’,’hello’:’ho’,’byebye’:’be’} 
-
+# print(dict(li))
 
 
 
