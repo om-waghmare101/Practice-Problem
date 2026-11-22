@@ -288,14 +288,22 @@
 # S=[‘jiocinema.com’,’file.py’,’web.html’,’amazom.com’,’www.org ’python.py’] 
 # Out={‘com’:[‘jiocinema’,’amazon’],’py’:[‘file’,’python’],’html’:[‘web’], ’org’:[‘www’]} 
 
-S = ['jiocinema.com', 'file.py', 'web.html', 'amazom.com', 'www.org','python.py']
-cat =[]
-dom = []
+# S = ['jiocinema.com', 'file.py', 'web.html',
+#      'amazom.com', 'www.org', 'python.py']
+# cat = []
+# dom = []
+# for i in S:
+#     a = i.split('.')
+#     if a[-1] not in dom:
+#         dom.append(a[-1])
+#         cat.append([a[0]])
+#     else:
+#         cat[dom.index(a[-1])].append(a[0])
 
-for i in S:
-    a = i.split('.')
-    if a[-1] not in dom:
-        dom.append(a[-1])
+# Out = dict(zip(dom, cat))
+# print(Out)
+
+
 
 
 
