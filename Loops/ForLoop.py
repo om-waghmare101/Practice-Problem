@@ -350,8 +350,16 @@
 
 
 
-
 # 96.Wap to return the positions of vowels present in the given string. 
+s = "basibfuiqvbfdufgsf"
+
+for i in range(len(s)):
+    if s[i].lower() in 'aeiou':
+        print(s[i],i )
+
+
+
+        
 
 
 # 97.Wap to check whether the given collection is having nested collection or not. 
