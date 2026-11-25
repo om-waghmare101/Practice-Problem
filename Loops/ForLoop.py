@@ -308,7 +308,6 @@
 
 
 
-
 #    93.Wap to get the following output. 
 #    L=[‘hai’,34,3.4,’hello’,90,’byebye’] 
 #   Out={‘hai’:’hi’,’hello’:’ho’,’byebye’:’be’} 
@@ -325,11 +324,18 @@
 
 
 
-#     94.wap to get the following output. 
-#                 In=’hello’ 
-#                 Out={0:’h’,1:’e’,2:’l’,3:’l’,4:’e’} 
-
-
+# 94.wap to get the following output. 
+#   In=’hello’ 
+#   Out={0:’h’,1:’e’,2:’l’,3:’l’,4:’e’} 
+# n='hello'
+# out = []
+# key=[]
+# value=[]
+# for i in range(len(n)):
+#     key.append(i)
+#     value.append(n[i])
+# out = dict(zip(key,value))
+# print(out)
 
 
 # 95.Wap to extract all the string values present in list only if the string is palindrome.
