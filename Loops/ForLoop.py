@@ -338,7 +338,15 @@
 # print(out)
 
 
+
 # 95.Wap to extract all the string values present in list only if the string is palindrome.
+# li = [1,3,'hello',[1,2,3,],'nitin','human']
+# for i in range(len(li)):
+#     if type(li[i]) == str : 
+#         if li[i] == li[i][::-1]:
+#             print(li[i])
+   
+
 
 
 
