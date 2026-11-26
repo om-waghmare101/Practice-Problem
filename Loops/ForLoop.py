@@ -351,11 +351,11 @@
 
 
 # 96.Wap to return the positions of vowels present in the given string. 
-s = "basibfuiqvbfdufgsf"
+# s = "basibfuiqvbfdufgsf"
 
-for i in range(len(s)):
-    if s[i].lower() in 'aeiou':
-        print(s[i],i )
+# for i in range(len(s)):
+#     if s[i].lower() in 'aeiou':
+#         print(s[i],i )
 
 
 
@@ -363,6 +363,15 @@ for i in range(len(s)):
 
 
 # 97.Wap to check whether the given collection is having nested collection or not. 
+# col = [1,34,3.4,[1,2,3],'hello']
+# for i in range(len(col)):
+#     if type(col[i]) in (list,dict,set,tuple) :
+#         found = True 
+#         break
+# if found : 
+#     print('have collection')
+# else: 
+#     print('no collection')
 
 
 # 98.Wap to count the number of words in a string. 
