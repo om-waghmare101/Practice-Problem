@@ -352,7 +352,6 @@
 
 # 96.Wap to return the positions of vowels present in the given string. 
 # s = "basibfuiqvbfdufgsf"
-
 # for i in range(len(s)):
 #     if s[i].lower() in 'aeiou':
 #         print(s[i],i )
@@ -360,8 +359,6 @@
 
 
         
-
-
 # 97.Wap to check whether the given collection is having nested collection or not. 
 # col = [1,34,3.4,[1,2,3],'hello']
 # for i in range(len(col)):
@@ -374,7 +371,21 @@
 #     print('no collection')
 
 
-# 98.Wap to count the number of words in a string. 
+
+
+# 98.Wap to count the number of words in a string.
+# s = 'hello my name is om'
+# a = s.split()
+# print(a)
+# count=0
+# for i in a:
+#     count +=1
+ 
+# print(count)
+
+
+
+
 
 
 # 99.Wap to check whether the number is neon number or not. 
