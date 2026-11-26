@@ -387,9 +387,18 @@
 
 
 
-
 # 99.Wap to check whether the number is neon number or not. 
 #     N=9→9**2=81→8+1=9 
+# n = 9
+# a = 0
+# demo = n ** 2
+# for i in str(demo):
+#     a = a + int(i)
+# if a == n:
+#     print('Neon number')
+# else:
+#     print('Not a neon number')
+
 
 
 # 100.Wap to find the longest word in a string. 
