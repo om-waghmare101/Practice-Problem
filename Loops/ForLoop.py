@@ -381,7 +381,7 @@
 # for i in a:
 #     count +=1
  
-# print(count)
+# print('Number of words present in a sentence is :',count)
 
 
 
@@ -402,6 +402,23 @@
 
 
 # 100.Wap to find the longest word in a string. 
+# s = 'hello my name is om'
+# a = s.split(' ')
+# n = 0
+# longest = ''
+
+# for i in range(len(a)):
+#     l = len(a[i])
+
+#     if l > n:
+#         n = l
+#         longest = a[i]
+# print('Longest word:', longest)
+# print('Length:', n)
+
+
+    
+    
 
 
 
